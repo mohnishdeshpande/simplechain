@@ -1,0 +1,19 @@
+meta {
+  name: Write Block
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "product_id":"32ebfd6ef187da828ed237c1713c21c2",
+    "user":"Test User",
+    "checkout_date":"2025-02-01"
+  }
+}

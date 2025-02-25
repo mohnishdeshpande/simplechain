@@ -1,0 +1,20 @@
+meta {
+  name: New Product
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:3000/new
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"MRD",
+    "seller":"Mohnish Deshpande",
+    "upload_date":"2024-09-24",
+    "serial_num":"456789"
+  }
+}
